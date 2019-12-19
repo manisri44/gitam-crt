@@ -1,0 +1,99 @@
+ c is procedure oriented language
+ procedure is function/sub program
+ advantages of functions;
+   1.reusability
+   2.debugging is easy
+   3.c is general purpose and its compiler based,high level procedure oriented programming language
+sql,unix,linux is developed by c
+compiler converts high level language to low level language
+invented by dennis ritche in 1972
+ 
+sample.c
+execution flow of c:
+ preprocesser: macro substitution,file inclusion,conditional compilation.
+ statements after # are called prprocessive stmnts
+file inclusion:
+ #include<stdio.h>---->predefined header file
+ #include"gitam.h"---->userdefined header file
+macro substitution:
+ 2+3*2+3=11 not expanded only substituted
+pure sample.c
+compiler:
+    converts to sampl.asl
+assembler:
+    converts into obj code/machine code
+    sample.obj
+     sample.obj*
+linker/loader:machine code to os
+ sample.exe
+turbo c:
+ sample.bak
+   according to turbo c compiler:
+ int a
+%d integer -32,768 to +36,767 2bytes
+charc
+%c character -128 to +127 1byte
+float 
+% float 3.4e-3.4 to 3.4 e+3.4 4 bytes
+double c=12345.123456789
+% if double 1.7e-308 to 1.7 e+308 8 bytes
+char str[100]
+%s string//depend on no of charaters
+long int a=123456789
+%id long int -2147483647to +2147483648 4 bytes
+undigned int 
+%u 0 to 65535 2bytes
+syn:
+   scanf("format specifier",&var_list);
+   int scanf(char *)
+
+types of operators:
+ 1)arthemetic operators:+,-,/,*and %
+ %--- remainder
+ /---- integer quotient
+ 145%10=5
+ ie to extraqct first digit of any number use %10
+ remove first digit of any num use /10
+ 2)logical operator:&&(and),||(or),!(not)
+ 3)relational operator:<,<=,>,>=,==,!=
+ 4)sizeof() operator:
+     find the size of any operator linear/data type
+ 5)ternary or conditional operator:
+ exp1?exp2:exp3;
+ 6)assingment operator:
+ =
++=,-=,*=,%=,/= compund assignment
+a+=b-->a=a+b
+ 7)increament/decreament operator:
+ ++,-- pre and post
+ 8)bit wise operator:
+ and &
+ or
+ negation ~
+ xor ^
+ left shift <<
+ right shift >>
+ 9) special operators such as comma(,)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

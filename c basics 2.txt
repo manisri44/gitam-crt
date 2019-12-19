@@ -1,0 +1,9 @@
+control structures:
+   (iterative statements)
+   types:
+  1.conditional control structure
+    ex:for,while,dowhile loops
+  2.unconditional control structure:
+    ex:break and continue
+  3.unconditional and uncontrolled structure:
+    ex:goto
